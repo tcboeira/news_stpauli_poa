@@ -1,13 +1,11 @@
-# FC St. Pauli Brasil News Bot
-
-Bot em Python que agrega notícias, cultura, podcasts, fanzines e conteúdo comunitário relacionados ao FC St. Pauli, traduzindo automaticamente para português e publicando no Telegram.
+# FC St. Pauli Brasil News
+Trata-se de um script/Bot, desenvolvido em Python que agrega notícias, cultura, podcasts, fanzines e conteúdo comunitário relacionados ao FC St. Pauli, traduzindo automaticamente para português e publicando no Telegram.
 
 O projeto busca criar um hub brasileiro da cultura St. Pauli, indo além do futebol tradicional e trazendo conteúdos ligados à torcida, antifascismo, identidade cultural e comunidade.
 
 ---
 
 # Funcionalidades
-
 * Coleta automática de notícias e conteúdos
 * Suporte a múltiplas fontes
 * RSS + Web Scraping
@@ -21,7 +19,6 @@ O projeto busca criar um hub brasileiro da cultura St. Pauli, indo além do fute
 ---
 
 # Categorias
-
 | Categoria | Emoji |
 | --------- | ----- |
 | Notícia   | 📰    |
@@ -33,47 +30,38 @@ O projeto busca criar um hub brasileiro da cultura St. Pauli, indo além do fute
 ---
 
 # Fontes atuais
-
 ## Oficial
-
-Conteúdo oficial do FC St. Pauli.
+- Conteúdo oficial do FC St. Pauli.
 
 ## MillernTon
-
-Principal mídia independente ligada ao clube.
+- Principal mídia independente ligada ao clube.
 
 ## St. Pauli POP
-
-Conteúdo cultural, político e comunitário.
+- Conteúdo cultural, político e comunitário.
 
 ## Übersteiger
-
-Fanzine histórico da torcida.
+- Fanzine histórico da torcida.
 
 ## MillernTon Podcast
-
-Podcasts da comunidade St. Pauli.
+- Podcasts da comunidade St. Pauli.
 
 ---
 
 # Tecnologias utilizadas
-
 * Python
-* SQLite
-* Requests
-* BeautifulSoup4
-* Feedparser
-* Deep Translator
-* Telegram Bot API
+* SQLite, quem "vem embutido" no Python
+* Requests (Biblioteca para Python)
+* BeautifulSoup4 (Biblioteca para Python)
+* Feedparser (Biblioteca para Python)
+* Deep Translator (Biblioteca para Python)
+* Telegram (API para BOT)
 
 ---
 
 # Instalação
 
 ## 1. Instalar Python
-
 Baixe em:
-
 https://www.python.org/downloads/
 
 ---
